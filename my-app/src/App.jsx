@@ -5,6 +5,7 @@ import './App.css';
 import Residencies from "./components/Residencies/Residencies";
 import Value from "./components/Value/Value"; // Make sure this exists
 import Contact from "./components/Contacts/Contact";
+import GetStarted from "./components/GetStarted/GetStarted";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Residencies/>
       <Value/>
       <Contact/>
+      <GetStarted/>
     </div>
   );
 }
